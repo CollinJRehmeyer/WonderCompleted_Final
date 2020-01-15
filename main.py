@@ -13,7 +13,7 @@ from generateText import generate
 
 def main():
 
-    tweetInterval = 60 #Tweet every 8 hours
+    tweetInterval = 60 * 60 *2 #Tweet every hour
     
     # Get credentials from environment variables set in OS or heroku
     consumer_key = os.environ['CONSUMER_KEY']
